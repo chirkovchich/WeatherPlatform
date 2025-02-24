@@ -14,6 +14,7 @@ Weather APi SDK is used to get current weather data from https://openweathermap.
 
 You can download the ready jar file: 
 platform-weather-sdk-1.0-DEMO.jar
+https://github.com/chirkovchich/WeatherPlatform/blob/main/platform-weather-sdk-1.0-DEMO.jar
 
 Install it [to local repository maven](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
 and use it at dependency:
