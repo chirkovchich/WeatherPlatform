@@ -1,0 +1,40 @@
+package ru.chirkov.dto;
+
+public class GeoCoordinate {
+
+    private double lat;
+
+    private double lon;
+
+    public GeoCoordinate(double lat, double lon) {
+        this.lat = lat;
+        this.lon = lon;
+    }
+
+    public GeoCoordinate() {
+    }
+
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public double getLon() {
+        return lon;
+    }
+
+    public void setLon(double lon) {
+        this.lon = lon;
+    }
+
+    @Override
+    public String toString() {
+        return "GeoCoordinate{" +
+                "lat=" + lat +
+                ", lon=" + lon +
+                '}';
+    }
+}
